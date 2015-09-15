@@ -1,0 +1,35 @@
+The application provides a simple low-tech user interface via web browser for viewing basic data of weather in a user selected USA city.
+
+Features:
+  * Show weather for selected city
+  * Supports both Celcius and Fahrenheit
+  * Automatically refreshes to update the weather data
+
+Diversions and othe liberties taken with original task description:
+  * List of USA cities taken from http://www.infoplease.com/ipa/A0108676.html
+  * Weather info refreshig id not truely asynchronous as it does not wait for server to push request to it but polls the server for new data every x amount of time. (15 minutes)
+  * Displayed weather info was limited to general description and temperature. I did not display all the data given by the service due to not knowing well enough what
+   measurement units were used for them and how best to convert them to metric.
+  * Due to lack of knowledge with the selected framework the user interface was left quite bare and uses some approaches that might not be best practices in web development.
+  * Due to time constraints and using an unknown framework this application was not developed in a Test Driven manner. As a result there are no tests for the application.
+  (I consider this barely acceptable only for proof-of-concept applications)
+  * Used Play Framework as the backbone of the application. Hadn't used it before so it was a learning experience and chose it because it seemed to offer some similarities
+  to Rails which I am used to.
+
+
+Components:
+Application - Controller that serves requests to application provided endpoints.
+BaseFetcher - Common logic used by both fetchers.
+WeatherFetcher - Extends BaseFetcher and adds Weather data specific logic to produce Weather objects to be used elsewhere in the application.
+ForecastFetchet - Extends BaseFetcher and adds Forecast data specific logic. Currently not usable/used.
+Weather - Defines and manipulates the data received from WeatherFetcher.
+CityList - Singleton class that manages a list of all cities from JSON file.
+City - Defines the properties that a City has in the scope of this application.
+IndexViewManager - Helper that houses most of the logic to provide valuable data to the views.
+
+
+
+Additional comments:
+The ForecastFetcher class, which currently is dead code because it is not used anywhere, is capable of fetching the appropriate XML from the service with SOAP. It
+is lacking capabilities to parse the XML into a usable object. This is something that can be added in the future.
+The list of USA cities used by the application are stored in a configuration .json file which allows for easy modification even after deployment.
