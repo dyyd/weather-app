@@ -1,6 +1,6 @@
 package controllers;
 
-import models.*;
+import models.IndexViewManager;
 import play.data.Form;
 import play.mvc.*;
 

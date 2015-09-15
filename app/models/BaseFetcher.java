@@ -1,7 +1,5 @@
 package models;
 
-import org.w3c.dom.*;
-
 import javax.xml.namespace.QName;
 import javax.xml.soap.*;
 import java.io.ByteArrayOutputStream;

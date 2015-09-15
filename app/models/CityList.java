@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
@@ -25,7 +24,7 @@ public class CityList {
     public CityList() {
         String fileName = "conf/city_list.json";
         try {
-            String jsonString =  new String(Files.readAllBytes(Paths.get(fileName)), StandardCharsets.UTF_8);
+            String jsonString =  new String(Files.readAllBytes(Paths.get(fileName)), "UTF-8");
             Gson g = new Gson();
             cities = g.fromJson(jsonString, City[].class);
         }

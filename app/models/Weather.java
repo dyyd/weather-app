@@ -4,28 +4,32 @@ package models;
  * Created by dyyd on 14.09.15.
  */
 public class Weather {
-    private String id;
+
+//     Currently not used but potentially provided by source
+//    private String id;
+//    private String relativeHumidity;
+//    private String wind;
+//    private String pressure;
+//    private String visibility;
+//    private String windChill;
+//    private String remarks;
+
     private String description;
     private Double temperature;
-    private String relativeHumidity;
-    private String wind;
-    private String pressure;
-    private String visibility;
-    private String windChill;
-    private String remarks;
     private Boolean imperial;
 
     public Weather(String weatherID, String description, String temperature, String relativeHumidity,
                    String wind, String pressure, String visibility, String windChill, String remarks, Boolean imperial) {
-        this.id = weatherID;
+
+//        this.id = weatherID;
+//        this.relativeHumidity = relativeHumidity;
+//        this.wind = wind;
+//        this.pressure = pressure;
+//        this.visibility = visibility;
+//        this.windChill = windChill;
+//        this.remarks = remarks;
         this.description = description;
         this.temperature = Double.parseDouble(temperature);
-        this.relativeHumidity = relativeHumidity;
-        this.wind = wind;
-        this.pressure = pressure;
-        this.visibility = visibility;
-        this.windChill = windChill;
-        this.remarks = remarks;
         this.imperial = imperial;
     }
 

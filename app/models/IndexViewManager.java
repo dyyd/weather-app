@@ -4,6 +4,8 @@ import play.data.DynamicForm;
 
 /**
  * Created by dyyd on 15.09.15.
+ *
+ * General index page manager that deals with providing data to view.
  */
 public class IndexViewManager {
     private CityList cityList;
