@@ -1,4 +1,6 @@
-@(cl: CityList, cityForm: play.data.Form[City], weather: Weather, selectedCity: City)
+@(cl: CityList, cityForm: play.data.Form[City], weather: Weather, selectedCity: City, metricUnit: Boolean)
+
+@main("Weather in USA"){
     @helper.form(action = routes.Application.index) {
         <label>Select city:</label>
         <select name="zip">
@@ -6,8 +8,11 @@
             <option value=@c.getZip() @if(selectedCity.getZip().equals(c.getZip())){selected="selected"}>@c.getName()</option>
         }
         </select>
+        <input type="radio" name="unit" value="metric" @if(metricUnit){checked="true"}>Metric
+        <input type="radio" name="unit" value="imperial" @if(!metricUnit){checked="true"}>Imperial
         <input type="submit" value="Get Weather">
     }
 
-<p>Weather info for @selectedCity.getName():</p>
-@weather.toString()
+    <p>Weather info for @selectedCity.getName():</p>
+    @weather.toString()
+}

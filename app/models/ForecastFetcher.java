@@ -13,8 +13,9 @@ import java.io.StringReader;
  */
 public class ForecastFetcher extends BaseFetcher  {
 
+    // Get weather forecast info for selected location
     public String getForecastFor(String zip) throws Exception{
-        return getDataFor(zip, "GetCityForecastByZIP");
+        return parseFetchedXML(getDataFor(zip, "GetCityForecastByZIP"));
     }
 
 
@@ -25,10 +26,7 @@ public class ForecastFetcher extends BaseFetcher  {
             Document doc = dBuilder.parse(new InputSource(new StringReader(xml)));
 
             doc.getDocumentElement().normalize();
-
-            System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
-
-            NodeList forecast = doc.getElementsByTagName("Forecast");
+            // TODO: Parse the XML into Forecast objects
         }
         catch (Exception e) {
             System.err.println("Exception parsing XML: " + e.getMessage());

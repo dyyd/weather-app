@@ -1,5 +1,7 @@
 package models;
 
+import org.w3c.dom.*;
+
 import javax.xml.namespace.QName;
 import javax.xml.soap.*;
 import java.io.ByteArrayOutputStream;
@@ -24,7 +26,6 @@ public class BaseFetcher {
         ByteArrayOutputStream os = new ByteArrayOutputStream();
 
         soapResponse.writeTo(os);
-        System.out.print(os.toString());
         soapConnection.close();
 
         return os.toString("UTF-8");
@@ -56,4 +57,5 @@ public class BaseFetcher {
 
         return soapMessage;
     }
+
 }

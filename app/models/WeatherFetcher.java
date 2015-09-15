@@ -1,8 +1,7 @@
 package models;
 
 import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.Element;
 import org.xml.sax.InputSource;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -14,12 +13,20 @@ import java.io.StringReader;
  */
 public class WeatherFetcher extends BaseFetcher {
 
-    public String getWeatherFor(String zip) throws Exception{
-        return parseFetchedXML(getDataFor(zip, "GetCityWeatherByZIP"));
+    public Weather getWeatherFor(String zip) {
+        String xml = "";
+        try {
+            xml = getDataFor(zip, "GetCityWeatherByZIP");
+        }
+        catch (Exception e) {
+            // TODO: Log this
+            System.err.println(e.getMessage());
+        }
+        return parseFetchedXML(xml);
     }
 
 
-    private String parseFetchedXML(String xml) {
+    private Weather parseFetchedXML(String xml) {
         try {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -27,34 +34,30 @@ public class WeatherFetcher extends BaseFetcher {
 
             doc.getDocumentElement().normalize();
 
-            System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
-            System.out.println(doc.getElementsByTagName("WeatherReturn").item(0));
-            System.out.println(doc.getElementsByTagName("Description").item(0));
-            System.out.println(doc.getElementsByTagName("Temperature").item(0));
-            NodeList nl = doc.getChildNodes();
-            for (int count = 0; count < nl.getLength(); count++) {
-                Node tempNode = nl.item(count);
-                System.out.println(tempNode.getNodeName());
-                NodeList nls = tempNode.getChildNodes();
-                for (int count2 = 0; count2 < nls.getLength(); count2++) {
-                    Node tempNode2 = nls.item(count2);
-                    System.out.println(tempNode2.getNodeName());
-                    NodeList nlsb = tempNode2.getChildNodes();
-                    for (int count3 = 0; count3 < nlsb.getLength(); count3++) {
-                        Node tempNode3 = nlsb.item(count3);
-                        System.out.println(tempNode3.getNodeName());
-                    }
-                }
-            }
+            Element elm = (Element) doc.getElementsByTagName("GetCityWeatherByZIPResult").item(0);
 
-            return doc.getElementById("WeatherReturn") + " - " + doc.getElementById("Temperature") + "F";
+            Weather weather = new Weather(
+                    elm.getElementsByTagName("WeatherID").item(0).getTextContent(),
+                    elm.getElementsByTagName("Description").item(0).getTextContent(),
+                    elm.getElementsByTagName("Temperature").item(0).getTextContent(),
+                    elm.getElementsByTagName("RelativeHumidity").item(0).getTextContent(),
+                    elm.getElementsByTagName("Wind").item(0).getTextContent(),
+                    elm.getElementsByTagName("Pressure").item(0).getTextContent(),
+                    elm.getElementsByTagName("Visibility").item(0).getTextContent(),
+                    elm.getElementsByTagName("WindChill").item(0).getTextContent(),
+                    elm.getElementsByTagName("Remarks").item(0).getTextContent(),
+                    true //Raw data is in Imperial units
+            );
+
+            return weather;
 
         }
         catch (Exception e) {
+            // TODO: Log this
             System.err.println("Exception parsing XML: " + e.getMessage());
         }
 
-        return "";
+        return new Weather();
     }
 
 }
