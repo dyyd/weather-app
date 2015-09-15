@@ -1,0 +1,1014 @@
+[
+  {
+    "name": "Birmingham",
+    "zip": "35203"
+  },
+  {
+    "name": "Huntsville",
+    "zip": "35813"
+  },
+  {
+    "name": "Mobile",
+    "zip": "36601"
+  },
+  {
+    "name": "Montgomery",
+    "zip": "36119"
+  },
+  {
+    "name": "Anchorage",
+    "zip": "99599"
+  },
+  {
+    "name": "Chandler",
+    "zip": "85225"
+  },
+  {
+    "name": "Gilbert town",
+    "zip": "85296"
+  },
+  {
+    "name": "Glendale",
+    "zip": "85302"
+  },
+  {
+    "name": "Mesa",
+    "zip": "85201"
+  },
+  {
+    "name": "Peoria",
+    "zip": "85381"
+  },
+  {
+    "name": "Phoenix",
+    "zip": "85026"
+  },
+  {
+    "name": "Scottsdale",
+    "zip": "85251"
+  },
+  {
+    "name": "Tempe",
+    "zip": "85282"
+  },
+  {
+    "name": "Tucson",
+    "zip": "85726"
+  },
+  {
+    "name": "Little Rock",
+    "zip": "72202"
+  },
+  {
+    "name": "Anaheim",
+    "zip": "92803"
+  },
+  {
+    "name": "Antioch",
+    "zip": "94509"
+  },
+  {
+    "name": "Bakersfield",
+    "zip": "93380"
+  },
+  {
+    "name": "Berkeley",
+    "zip": "94704"
+  },
+  {
+    "name": "Burbank",
+    "zip": "91505"
+  },
+  {
+    "name": "Chula Vista",
+    "zip": "91910"
+  },
+  {
+    "name": "Concord",
+    "zip": "94520"
+  },
+  {
+    "name": "Corona",
+    "zip": "91718"
+  },
+  {
+    "name": "Costa Mesa",
+    "zip": "92628"
+  },
+  {
+    "name": "Daly City",
+    "zip": "94015"
+  },
+  {
+    "name": "Downey",
+    "zip": "90241"
+  },
+  {
+    "name": "El Monte",
+    "zip": "91734"
+  },
+  {
+    "name": "Elk Grove",
+    "zip": "95624"
+  },
+  {
+    "name": "Escondido",
+    "zip": "92025"
+  },
+  {
+    "name": "Fairfield",
+    "zip": "94533"
+  },
+  {
+    "name": "Fontana",
+    "zip": "92335"
+  },
+  {
+    "name": "Fremont",
+    "zip": "94537"
+  },
+  {
+    "name": "Fresno",
+    "zip": "93706"
+  },
+  {
+    "name": "Fullerton",
+    "zip": "92834"
+  },
+  {
+    "name": "Garden Grove",
+    "zip": "92842"
+  },
+  {
+    "name": "Glendale",
+    "zip": "91205"
+  },
+  {
+    "name": "Hayward",
+    "zip": "94544"
+  },
+  {
+    "name": "Huntington Beach",
+    "zip": "92647"
+  },
+  {
+    "name": "Inglewood",
+    "zip": "90301"
+  },
+  {
+    "name": "Irvine",
+    "zip": "92619"
+  },
+  {
+    "name": "Lancaster",
+    "zip": "93534"
+  },
+  {
+    "name": "Long Beach",
+    "zip": "90802"
+  },
+  {
+    "name": "Los Angeles",
+    "zip": "90052"
+  },
+  {
+    "name": "Modesto",
+    "zip": "95350"
+  },
+  {
+    "name": "Moreno Valley",
+    "zip": "92553"
+  },
+  {
+    "name": "Norwalk",
+    "zip": "90650"
+  },
+  {
+    "name": "Oakland",
+    "zip": "94612"
+  },
+  {
+    "name": "Oceanside",
+    "zip": "92054"
+  },
+  {
+    "name": "Ontario",
+    "zip": "91761"
+  },
+  {
+    "name": "Orange",
+    "zip": "92863"
+  },
+  {
+    "name": "Oxnard",
+    "zip": "93030"
+  },
+  {
+    "name": "Palmdale",
+    "zip": "93550"
+  },
+  {
+    "name": "Pasadena",
+    "zip": "91103"
+  },
+  {
+    "name": "Pomona",
+    "zip": "91769"
+  },
+  {
+    "name": "Rancho Cucamonga",
+    "zip": "91729"
+  },
+  {
+    "name": "Richmond",
+    "zip": "94801"
+  },
+  {
+    "name": "Riverside",
+    "zip": "92507"
+  },
+  {
+    "name": "Roseville",
+    "zip": "95661"
+  },
+  {
+    "name": "Sacramento",
+    "zip": "95813"
+  },
+  {
+    "name": "Salinas",
+    "zip": "93907"
+  },
+  {
+    "name": "San Bernardino",
+    "zip": "92401"
+  },
+  {
+    "name": "San Buenaventura (Ventura",
+    "zip": "93001"
+  },
+  {
+    "name": "San Diego",
+    "zip": "92199"
+  },
+  {
+    "name": "San Francisco",
+    "zip": "94188"
+  },
+  {
+    "name": "San Jose",
+    "zip": "95101"
+  },
+  {
+    "name": "Santa Ana",
+    "zip": "92711"
+  },
+  {
+    "name": "Santa Clara",
+    "zip": "95050"
+  },
+  {
+    "name": "Santa Clarita",
+    "zip": "91355"
+  },
+  {
+    "name": "Santa Rosa",
+    "zip": "95402"
+  },
+  {
+    "name": "Simi Valley",
+    "zip": "93065"
+  },
+  {
+    "name": "Stockton",
+    "zip": "95208"
+  },
+  {
+    "name": "Sunnyvale",
+    "zip": "94086"
+  },
+  {
+    "name": "Thousand Oaks",
+    "zip": "91362"
+  },
+  {
+    "name": "Torrance",
+    "zip": "90503"
+  },
+  {
+    "name": "Vallejo",
+    "zip": "94590"
+  },
+  {
+    "name": "Visalia",
+    "zip": "93277"
+  },
+  {
+    "name": "West Covina",
+    "zip": "91793"
+  },
+  {
+    "name": "Arvada",
+    "zip": "80004"
+  },
+  {
+    "name": "Aurora",
+    "zip": "80017"
+  },
+  {
+    "name": "Colorado Springs",
+    "zip": "80903"
+  },
+  {
+    "name": "Denver",
+    "zip": "80202"
+  },
+  {
+    "name": "Fort Collins",
+    "zip": "80525"
+  },
+  {
+    "name": "Lakewood",
+    "zip": "80202"
+  },
+  {
+    "name": "Pueblo",
+    "zip": "81003"
+  },
+  {
+    "name": "Thornton",
+    "zip": "80221"
+  },
+  {
+    "name": "Westminster",
+    "zip": "80030"
+  },
+  {
+    "name": "Bridgeport",
+    "zip": "06602"
+  },
+  {
+    "name": "Hartford",
+    "zip": "06101"
+  },
+  {
+    "name": "New Haven",
+    "zip": "06511"
+  },
+  {
+    "name": "Stamford",
+    "zip": "06904"
+  },
+  {
+    "name": "Waterbury",
+    "zip": "06702"
+  },
+  {
+    "name": "Washington1",
+    "zip": "20090"
+  },
+  {
+    "name": "Cape Coral",
+    "zip": "33909"
+  },
+  {
+    "name": "Clearwater",
+    "zip": "33990"
+  },
+  {
+    "name": "Coral Springs",
+    "zip": "33075"
+  },
+  {
+    "name": "Fort Lauderdale",
+    "zip": "33310"
+  },
+  {
+    "name": "Gainesville",
+    "zip": "32601"
+  },
+  {
+    "name": "Hialeah",
+    "zip": "33010"
+  },
+  {
+    "name": "Hollywood",
+    "zip": "33022"
+  },
+  {
+    "name": "Jacksonville",
+    "zip": "32203"
+  },
+  {
+    "name": "Miami",
+    "zip": "33152"
+  },
+  {
+    "name": "Miramar",
+    "zip": "33023"
+  },
+  {
+    "name": "Orlando",
+    "zip": "32802"
+  },
+  {
+    "name": "Pembroke Pines",
+    "zip": "33024"
+  },
+  {
+    "name": "Pompano Beach",
+    "zip": "33060"
+  },
+  {
+    "name": "Port St. Lucie",
+    "zip": "34952"
+  },
+  {
+    "name": "St. Petersburg",
+    "zip": "33730"
+  },
+  {
+    "name": "Tallahassee",
+    "zip": "32301"
+  },
+  {
+    "name": "Tampa",
+    "zip": "33630"
+  },
+  {
+    "name": "Athens-Clarke County2",
+    "zip": "30608"
+  },
+  {
+    "name": "Atlanta",
+    "zip": "30304"
+  },
+  {
+    "name": "Augusta-Richmond County3",
+    "zip": "30901"
+  },
+  {
+    "name": "Columbus",
+    "zip": "31908"
+  },
+  {
+    "name": "Savannah",
+    "zip": "31402"
+  },
+  {
+    "name": "Honolulu CDP4",
+    "zip": "96820"
+  },
+  {
+    "name": "Boise City",
+    "zip": "83708"
+  },
+  {
+    "name": "Aurora",
+    "zip": "60505"
+  },
+  {
+    "name": "Chicago",
+    "zip": "60607"
+  },
+  {
+    "name": "Joliet",
+    "zip": "60436"
+  },
+  {
+    "name": "Naperville",
+    "zip": "60540"
+  },
+  {
+    "name": "Peoria",
+    "zip": "61601"
+  },
+  {
+    "name": "Rockford",
+    "zip": "61125"
+  },
+  {
+    "name": "Springfield",
+    "zip": "62703"
+  },
+  {
+    "name": "Evansville",
+    "zip": "47708"
+  },
+  {
+    "name": "Fort Wayne",
+    "zip": "46802"
+  },
+  {
+    "name": "Indianapolis",
+    "zip": "46206"
+  },
+  {
+    "name": "South Bend",
+    "zip": "46624"
+  },
+  {
+    "name": "Cedar Rapids",
+    "zip": "52401"
+  },
+  {
+    "name": "Des Moines",
+    "zip": "50318"
+  },
+  {
+    "name": "Kansas City",
+    "zip": "66106"
+  },
+  {
+    "name": "Olathe",
+    "zip": "66051"
+  },
+  {
+    "name": "Overland Park",
+    "zip": "66204"
+  },
+  {
+    "name": "Topeka",
+    "zip": "66603"
+  },
+  {
+    "name": "Wichita",
+    "zip": "67276"
+  },
+  {
+    "name": "Lexington-Fayette",
+    "zip": "40511"
+  },
+  {
+    "name": "Louisville-Jefferson",
+    "zip": "County5"
+  },
+  {
+    "name": "Baton Rouge",
+    "zip": "70826"
+  },
+  {
+    "name": "Lafayette",
+    "zip": "70509"
+  },
+  {
+    "name": "New Orleans",
+    "zip": "70113"
+  },
+  {
+    "name": "Shreveport",
+    "zip": "71102"
+  },
+  {
+    "name": "Baltimore",
+    "zip": "21202"
+  },
+  {
+    "name": "Boston",
+    "zip": "02205"
+  },
+  {
+    "name": "Cambridge",
+    "zip": "02139"
+  },
+  {
+    "name": "Lowell",
+    "zip": "01853"
+  },
+  {
+    "name": "Springfield",
+    "zip": "01101"
+  },
+  {
+    "name": "Worcester",
+    "zip": "01613"
+  },
+  {
+    "name": "Ann Arbor",
+    "zip": "48104"
+  },
+  {
+    "name": "Detroit",
+    "zip": "48233"
+  },
+  {
+    "name": "Flint",
+    "zip": "48502"
+  },
+  {
+    "name": "Grand Rapids",
+    "zip": "49501"
+  },
+  {
+    "name": "Lansing",
+    "zip": "48924"
+  },
+  {
+    "name": "Sterling Heights",
+    "zip": "48311"
+  },
+  {
+    "name": "Warren",
+    "zip": "48090"
+  },
+  {
+    "name": "Minneapolis",
+    "zip": "55401"
+  },
+  {
+    "name": "St. Paul",
+    "zip": "55109"
+  },
+  {
+    "name": "Jackson",
+    "zip": "39205"
+  },
+  {
+    "name": "Independence",
+    "zip": "64052"
+  },
+  {
+    "name": "Kansas City",
+    "zip": "64108"
+  },
+  {
+    "name": "Springfield",
+    "zip": "65801"
+  },
+  {
+    "name": "St. Louis",
+    "zip": "63155"
+  },
+  {
+    "name": "Lincoln",
+    "zip": "68501"
+  },
+  {
+    "name": "Omaha",
+    "zip": "68108"
+  },
+  {
+    "name": "Henderson",
+    "zip": "89015"
+  },
+  {
+    "name": "Las Vegas",
+    "zip": "89199"
+  },
+  {
+    "name": "North Las Vegas",
+    "zip": "89030"
+  },
+  {
+    "name": "Reno",
+    "zip": "89510"
+  },
+  {
+    "name": "Manchester",
+    "zip": "03103"
+  },
+  {
+    "name": "Elizabeth",
+    "zip": "07208"
+  },
+  {
+    "name": "Jersey City",
+    "zip": "07302"
+  },
+  {
+    "name": "Newark",
+    "zip": "07102"
+  },
+  {
+    "name": "Paterson",
+    "zip": "07510"
+  },
+  {
+    "name": "Albuquerque",
+    "zip": "87101"
+  },
+  {
+    "name": "Buffalo",
+    "zip": "14240"
+  },
+  {
+    "name": "New York",
+    "zip": "10199"
+  },
+  {
+    "name": "Rochester",
+    "zip": "14692"
+  },
+  {
+    "name": "Syracuse",
+    "zip": "13220"
+  },
+  {
+    "name": "Yonkers",
+    "zip": "10701"
+  },
+  {
+    "name": "Cary",
+    "zip": "27511"
+  },
+  {
+    "name": "Charlotte",
+    "zip": "28228"
+  },
+  {
+    "name": "Durham",
+    "zip": "27701"
+  },
+  {
+    "name": "Fayetteville",
+    "zip": "28302"
+  },
+  {
+    "name": "Greensboro",
+    "zip": "27420"
+  },
+  {
+    "name": "Raleigh",
+    "zip": "27613"
+  },
+  {
+    "name": "Winston-Salem",
+    "zip": "27102"
+  },
+  {
+    "name": "Akron",
+    "zip": "44309"
+  },
+  {
+    "name": "Cincinnati",
+    "zip": "45225"
+  },
+  {
+    "name": "Cleveland",
+    "zip": "44101"
+  },
+  {
+    "name": "Columbus",
+    "zip": "43216"
+  },
+  {
+    "name": "Dayton",
+    "zip": "45401"
+  },
+  {
+    "name": "Toledo",
+    "zip": "43601"
+  },
+  {
+    "name": "Norman",
+    "zip": "73019"
+  },
+  {
+    "name": "Oklahoma City",
+    "zip": "73125"
+  },
+  {
+    "name": "Tulsa",
+    "zip": "74107"
+  },
+  {
+    "name": "Eugene",
+    "zip": "97401"
+  },
+  {
+    "name": "Portland",
+    "zip": "97208"
+  },
+  {
+    "name": "Salem",
+    "zip": "97309"
+  },
+  {
+    "name": "Allentown",
+    "zip": "18101"
+  },
+  {
+    "name": "Erie",
+    "zip": "16515"
+  },
+  {
+    "name": "Philadelphia",
+    "zip": "19104"
+  },
+  {
+    "name": "Pittsburgh",
+    "zip": "15290"
+  },
+  {
+    "name": "Providence",
+    "zip": "02904"
+  },
+  {
+    "name": "Charleston",
+    "zip": "29401"
+  },
+  {
+    "name": "Columbia",
+    "zip": "29201"
+  },
+  {
+    "name": "Sioux Falls",
+    "zip": "57104"
+  },
+  {
+    "name": "Chattanooga",
+    "zip": "37421"
+  },
+  {
+    "name": "Clarksville",
+    "zip": "37043"
+  },
+  {
+    "name": "Knoxville",
+    "zip": "37950"
+  },
+  {
+    "name": "Memphis",
+    "zip": "38101"
+  },
+  {
+    "name": "Nashville-Davidson6",
+    "zip": "37230"
+  },
+  {
+    "name": "Abilene",
+    "zip": "79604"
+  },
+  {
+    "name": "Amarillo",
+    "zip": "79120"
+  },
+  {
+    "name": "Arlington",
+    "zip": "76004"
+  },
+  {
+    "name": "Austin",
+    "zip": "78710"
+  },
+  {
+    "name": "Beaumont",
+    "zip": "77707"
+  },
+  {
+    "name": "Brownsville",
+    "zip": "78520"
+  },
+  {
+    "name": "Carrollton",
+    "zip": "75006"
+  },
+  {
+    "name": "Corpus Christi",
+    "zip": "78469"
+  },
+  {
+    "name": "Dallas",
+    "zip": "75260"
+  },
+  {
+    "name": "Denton",
+    "zip": "76201"
+  },
+  {
+    "name": "El Paso",
+    "zip": "79910"
+  },
+  {
+    "name": "Fort Worth",
+    "zip": "76161"
+  },
+  {
+    "name": "Garland",
+    "zip": "75040"
+  },
+  {
+    "name": "Grand Prairie",
+    "zip": "75051"
+  },
+  {
+    "name": "Houston",
+    "zip": "77201"
+  },
+  {
+    "name": "Irving",
+    "zip": "75061"
+  },
+  {
+    "name": "Killeen",
+    "zip": "76541"
+  },
+  {
+    "name": "Laredo",
+    "zip": "78041"
+  },
+  {
+    "name": "Lubbock",
+    "zip": "79402"
+  },
+  {
+    "name": "McAllen",
+    "zip": "78501"
+  },
+  {
+    "name": "Mesquite",
+    "zip": "75149"
+  },
+  {
+    "name": "Pasadena",
+    "zip": "77501"
+  },
+  {
+    "name": "Plano",
+    "zip": "75074"
+  },
+  {
+    "name": "San Antonio",
+    "zip": "78284"
+  },
+  {
+    "name": "Waco",
+    "zip": "76702"
+  },
+  {
+    "name": "Salt Lake City",
+    "zip": "84199"
+  },
+  {
+    "name": "West Valley City",
+    "zip": "84199"
+  },
+  {
+    "name": "Alexandria",
+    "zip": "22314"
+  },
+  {
+    "name": "Arlington CDP",
+    "zip": "23320"
+  },
+  {
+    "name": "Chesapeake",
+    "zip": "23670"
+  },
+  {
+    "name": "Hampton",
+    "zip": "23607"
+  },
+  {
+    "name": "Newport News",
+    "zip": "23501"
+  },
+  {
+    "name": "Norfolk",
+    "zip": "23707"
+  },
+  {
+    "name": "Portsmouth",
+    "zip": "23702"
+  },
+  {
+    "name": "Richmond",
+    "zip": "23232"
+  },
+  {
+    "name": "Virginia Beach",
+    "zip": "23450"
+  },
+  {
+    "name": "Bellevue",
+    "zip": "98009"
+  },
+  {
+    "name": "Seattle",
+    "zip": "98108"
+  },
+  {
+    "name": "Spokane",
+    "zip": "99201"
+  },
+  {
+    "name": "Tacoma",
+    "zip": "98413"
+  },
+  {
+    "name": "Vancouver",
+    "zip": "98668"
+  },
+  {
+    "name": "Green Bay",
+    "zip": "54303"
+  },
+  {
+    "name": "Madison",
+    "zip": "53714"
+  },
+  {
+    "name": "Milwaukee",
+    "zip": "53203"
+  }
+]

@@ -1,7 +1,13 @@
-@(message: String)
+@(cl: CityList, cityForm: play.data.Form[City], weather: Weather, selectedCity: City)
+    @helper.form(action = routes.Application.index) {
+        <label>Select city:</label>
+        <select name="zip">
+        @for(c <- cl.getCities) {
+            <option value=@c.getZip() @if(selectedCity.getZip().equals(c.getZip())){selected="selected"}>@c.getName()</option>
+        }
+        </select>
+        <input type="submit" value="Get Weather">
+    }
 
-@main("Welcome to Play") {
-
-    @play20.welcome(message, style = "Java")
-
-}
+<p>Weather info for @selectedCity.getName():</p>
+@weather.toString()
