@@ -1,4 +1,15 @@
-This is your new Play application
-=================================
 
-This file will be packaged with your application, when using `activator dist`.
+Simple application using http://wsf.cdyne.com/WeatherWS/Weather.asmx service to provide weather data for a set of USA cities.
+
+Developed using Play Framework (https://www.playframework.com/)
+
+
+Release guide:
+    Run "activator dist" in shell to compile a deployable package.
+    Retrieve compiled application package and deploy to server. The path is outputted from the compiling command.
+    Unpack .zip package to desired directory.
+    Navigate to bin/ and run "weather-app".
+    Before running the application it is required to change application.conf play.crypto.secret value.
+    Or the other option would be to run the server with parameter "-Dplay.crypto.secret=" with some secret.
+    The server must have Java 8 installed as this was the version used during development and any previous version might produce problems.
+
