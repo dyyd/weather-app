@@ -1,0 +1,9 @@
+@(page: IndexViewManager)
+<div id="weather-info">
+    @if(page.newPage()){
+        <p>No city selected</p>
+    } else {
+        <p>Weather info for @page.selectedCity.getName():</p>
+        <p>@page.weatherDataString()</p>
+    }
+</div>

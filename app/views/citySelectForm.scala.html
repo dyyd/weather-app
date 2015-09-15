@@ -1,0 +1,21 @@
+@(page: IndexViewManager)
+<div id="city-form">
+    @helper.form(action = routes.Application.postForm, 'id -> "cityForm", 'method -> "POST") {
+    <label>Select city:</label>
+    <br>
+    <select name="zip" id="zip">
+        <option value="0"></option>
+        @for(c <- page.getCities) {
+        <option value=@c.getZip() @if(page.getSelectedZip().equals(c.getZip())){selected="selected"}>@c.getName()</option>
+        }
+    </select>
+    <br><br>
+    <label>Choose unit type:</label>
+    <br>
+    <input type="radio" name="unit" id="unit" value="metric" @if(page.metric){checked="checked"}>Metric
+    <br>
+    <input type="radio" name="unit" id="unit" value="imperial" @if(page.imperial){checked="checked"}>Imperial
+    <br><br>
+    <input type="submit" value="Get Weather">
+    }
+</div>

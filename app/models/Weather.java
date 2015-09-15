@@ -30,6 +30,7 @@ public class Weather {
     }
 
     public Weather() {
+        this.imperial = false;
     }
 
     public String toString() {
@@ -38,7 +39,7 @@ public class Weather {
         // TODO: Find better way to build the output string
         String returnString = "";
         returnString += description;
-        returnString += " - ";
+        returnString += ", ";
         returnString += temperatureInUnits();
 
         return returnString;
